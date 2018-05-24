@@ -13,18 +13,6 @@
 	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
 	<!-- Animate -->
 	<link href="assets/css/animate.css" rel="stylesheet">
-	<!-- Owl Slider -->
-	<link href="assets/css/owl.carousel.css" rel="stylesheet">
-	<!-- Owl Slider Theme -->
-	<link href="assets/css/owl.theme.css" rel="stylesheet">
-	<!--Jquery Validation -->
-	<link href="assets/css/validationEngine.jquery.css" rel="stylesheet">
-	<!--Jquery custom Validation -->
-	<link href="assets/css/custom_validatiion.css" rel="stylesheet">
-	<!--Mobile menu -->
-	<link href="assets/plugins/menu/css/hamburgers.css" rel="stylesheet">
-	<link href="assets/plugins/menu/css/jquery.mmenu.all.css" rel="stylesheet">
-	<link href="assets/plugins/menu/css/jquery.mhead.css" rel="stylesheet">
 	<!-- Animation CSS -->
   	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
 	<link rel="stylesheet" type="text/css" href="assets/css/default.css" />

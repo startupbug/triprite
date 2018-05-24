@@ -4,9 +4,9 @@
    <div class="container-fluid f_padding">
       <div class="w3-content w3-display-container">
          <img class="mySlides" src="assets/images/banner.png" class="img-responsive" style="width:100%">
-         <img class="mySlides" src="assets/images/banner.png" class="img-responsive" style="width:100%">
-         <img class="mySlides" src="https://www.w3schools.com/w3css/img_mountains.jpg" class="img-responsive" style="width:100%">
-         <img class="mySlides" src="https://www.w3schools.com/w3css/img_forest.jpg" style="width:100%">
+         <img class="mySlides" src="assets/images/banner1.jpg" class="img-responsive" style="width:100%">
+         <img class="mySlides" src="assets/images/banner2.jpg" class="img-responsive" style="width:100%">
+         
          <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
          <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
       </div>
@@ -604,8 +604,8 @@
                         <div class="border_box">02</div>
                      </div>
                      <div class="media-body">
-                        <h4 class="media-heading f_mediacontent">No booking charges</h4>
-                        <p class="f_mediatext">We don't charge you an extra fee for booking a hotel room with us.</p>
+                        <h4 class="media-heading f_mediacontent">No cancellation fees</h4>
+                        <p class="f_mediatext">We don't charge you a cancellation or modification fee in case plans change</p>
                      </div>
                   </div>
                   <div class="media f_media">
@@ -613,8 +613,8 @@
                         <div class="border_box">03</div>
                      </div>
                      <div class="media-body">
-                        <h4 class="media-heading f_mediacontent">No booking charges</h4>
-                        <p class="f_mediatext">We don't charge you an extra fee for booking a hotel room with us.</p>
+                        <h4 class="media-heading f_mediacontent">Instant confirmation</h4>
+                        <p class="f_mediatext">Instant booking confirmation whether booking online or via the telephone</p>
                      </div>
                   </div>
                   <div class="media f_media">
@@ -622,8 +622,8 @@
                         <div class="border_box">04</div>
                      </div>
                      <div class="media-body">
-                        <h4 class="media-heading f_mediacontent">No booking charges</h4>
-                        <p class="f_mediatext">We don't charge you an extra fee for booking a hotel room with us.</p>
+                        <h4 class="media-heading f_mediacontent">Flexible booking</h4>
+                        <p class="f_mediatext">You can book up to a whole year in advance until the moment of your stay</p>
                      </div>
                   </div>
                </div>
