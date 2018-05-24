@@ -73,51 +73,343 @@
                </form>
             </div>
             <div class="tab-pane fade" id="tab2default">
-               
+               <section class="search-box-wrapper">
+                  <div class="container">
+                     <div class="flights-search-box">
+                        <div class="row">
+                           <div class="col-md-8">
+                              <label class="custom_radio">
+                                <input type="radio" class="flight_radio_button radio_button" name="r1" data-message="one-way" checked="" value="one-way"> 
+                                <span class="radio_span_text">
+                                  One-way
+                                </span>
+                              </label>
+                              <label class="custom_radio">
+                                <input type="radio" class="flight_radio_button radio_button" name="r1" data-message="round-trip" value="round-trip">  
+                                <span class="radio_span_text">
+                                  Round-trip
+                                </span>
+                              </label>
+                              <label class="custom_radio">
+                                <input type="radio" class="flight_radio_button radio_button" name="r1" data-message="multi-city" value="multi-city">  
+                                <span class="radio_span_text">
+                                  Multi-city
+                                </span>
+                              </label>
+                           </div>
+                           <div class="col-md-4">
+                              <label class="checkbox-white">
+                                <input id="flights-search-direct" type="checkbox" class="js-input">
+                                <span class="f_direct">Direct flights only</span>
+                              </label>
+                           </div>
+                        </div>
+                        <div id="one-way" class="search_flight">
+                           <form>
+                              <div class="row">
+                                 <div class="col-md-4">
+                                    <div class="row">
+                                       <div class="col-md-12">
+                                          <div class="custom-input-text top-radius">
+                                             <i class="fa fa-map-marker"></i>
+                                             <input type="text" class="flight-search-form-input" placeholder="Origin">
+                                             <label class="custom_container">Nearby Airports
+                                               <input type="checkbox" checked="checked">
+                                               <span class="custom_checkmark"></span>
+                                             </label>
+                                          </div>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <div class="custom-input-text bottom-radius">
+                                             <i class="fa fa-map-marker"></i>
+                                             <input type="text" class="flight-search-form-input" placeholder="Origin">
+                                             <label class="custom_container">Nearby Airports
+                                               <input type="checkbox" checked="checked">
+                                               <span class="custom_checkmark"></span>
+                                             </label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-3">
+                                    <div class="row">
+                                       <div class="col-md-12">
+                                          <input type="text" class="daterange oneway_daterange " name="daterange" />
+                                          <div class="custom-input-text s_calendar right-radius start_date">
+                                             <i class="fa fa-calendar-o"></i>
+                                             <span class="month">March</span>
+                                             <span class="date">12</span>
+                                             <span class="day">Tuesday</span>
+                                          </div>
+                                          <div class="custom-input-text s_calendar left-radius end_date">
+                                             <i class="fa fa-calendar-o"></i>
+                                             <span class="month">March</span>
+                                             <span class="date">12</span>
+                                             <span class="day">Tuesday</span>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-3">
+                                    <div class="row">
+                                       <div class="col-md-12">
+                                          <div class="custom-input-text top-radius s_select">
+                                             <select class="form-control">
+                                                <option>Economy</option>
+                                                <option>Premium Economy</option>
+                                                <option>Business</option>
+                                                <option>First</option>
+                                             </select>
+                                          </div>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <div class="custom-input-text bottom-radius s_select">
+                                             <select class="form-control">
+                                                <option>1 Passenger</option>
+                                                <option>2 Passengers</option>
+                                                <option>3 Passengers</option>
+                                                <option>4 Passengers</option>
+                                                <option>5 Passengers</option>
+                                             </select>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-2 button_search_col">
+                                    <button type="submit" class="button_search">
+                                       <i class="fa fa-search"></i>
+                                       <span>
+                                          Search flights
+                                       </span>
+                                    </button>
+                                 </div>
+                              </div>
+                           </form>
+                        </div>
+                        <div id="round-trip" class="search_flight hidden">
+                           <form>
+                              <div class="row">
+                                 <div class="col-md-4">
+                                    <div class="row">
+                                       <div class="col-md-12">
+                                          <div class="custom-input-text top-radius">
+                                             <i class="fa fa-map-marker"></i>
+                                             <input type="text" class="flight-search-form-input" placeholder="Origin">
+                                             <label class="custom_container">Nearby Airports
+                                               <input type="checkbox" checked="checked">
+                                               <span class="custom_checkmark"></span>
+                                             </label>
+                                          </div>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <div class="custom-input-text bottom-radius">
+                                             <i class="fa fa-map-marker"></i>
+                                             <input type="text" class="flight-search-form-input" placeholder="Origin">
+                                             <label class="custom_container">Nearby Airports
+                                               <input type="checkbox" checked="checked">
+                                               <span class="custom_checkmark"></span>
+                                             </label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-3">
+                                    <div class="row">
+                                       <div class="col-md-12">
+                                          <input type="text" class="daterange roundtrip_daterange " name="daterange" />
+                                          <div class="custom-input-text s_calendar right-radius start_date">
+                                             <i class="fa fa-calendar-o"></i>
+                                             <span class="month">March</span>
+                                             <span class="date">12</span>
+                                             <span class="day">Tuesday</span>
+                                          </div>
+                                          <div class="custom-input-text s_calendar left-radius end_date">
+                                             <i class="fa fa-calendar-o"></i>
+                                             <span class="month">March</span>
+                                             <span class="date">12</span>
+                                             <span class="day">Tuesday</span>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-3">
+                                    <div class="row">
+                                       <div class="col-md-12">
+                                          <div class="custom-input-text top-radius s_select">
+                                             <select class="form-control">
+                                                <option>Economy</option>
+                                                <option>Premium Economy</option>
+                                                <option>Business</option>
+                                                <option>First</option>
+                                             </select>
+                                          </div>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <div class="custom-input-text bottom-radius s_select">
+                                             <select class="form-control">
+                                                <option>1 Passenger</option>
+                                                <option>2 Passengers</option>
+                                                <option>3 Passengers</option>
+                                                <option>4 Passengers</option>
+                                                <option>5 Passengers</option>
+                                             </select>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-2 button_search_col">
+                                    <button type="submit" class="button_search">
+                                       <i class="fa fa-search"></i>
+                                       <span>
+                                          Search flights
+                                       </span>
+                                    </button>
+                                 </div>
+                              </div>
+                           </form>
+                        </div>
+                        <div id="multi-city" class="search_flight hidden">
+                           <form>
+                              <div class="row">
+                                 <div class="col-md-6">
+                                    <div class="row">
+                                       <div class="col-md-12">
+                                          <div class="custom-input-text top-radius">
+                                             <i class="fa fa-map-marker"></i>
+                                             <input type="text" class="flight-search-form-input multi-city-input" placeholder="Origin">
+                                             <label class="custom_container">Nearby Airports
+                                               <input type="checkbox" checked="checked">
+                                               <span class="custom_checkmark"></span>
+                                             </label>
+                                          </div>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <div class="custom-input-text bottom-radius">
+                                             <i class="fa fa-map-marker"></i>
+                                             <input type="text" class="flight-search-form-input multi-city-input" placeholder="Origin">
+                                             <label class="custom_container">Nearby Airports
+                                               <input type="checkbox" checked="checked">
+                                               <span class="custom_checkmark"></span>
+                                             </label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-1">
+                                    <div class="row">
+                                       <div class="col-md-12">
+                                          <input type="text" class="daterange multicity_daterange " name="daterange" />
+                                          <div class="custom-input-text s_calendar square-radius start_date">
+                                             <i class="fa fa-calendar-o"></i>
+                                             <span class="month">March</span>
+                                             <span class="date">12</span>
+                                             <span class="day">Tuesday</span>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-3">
+                                    <div class="row">
+                                       <div class="col-md-12">
+                                          <div class="custom-input-text top-radius s_select">
+                                             <select class="form-control">
+                                                <option>Economy</option>
+                                                <option>Premium Economy</option>
+                                                <option>Business</option>
+                                                <option>First</option>
+                                             </select>
+                                          </div>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <div class="custom-input-text bottom-radius s_select">
+                                             <select class="form-control">
+                                                <option>1 Passenger</option>
+                                                <option>2 Passengers</option>
+                                                <option>3 Passengers</option>
+                                                <option>4 Passengers</option>
+                                                <option>5 Passengers</option>
+                                             </select>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-2 button_search_col">
+                                    <button type="submit" class="button_search">
+                                       <i class="fa fa-search"></i>
+                                       <span>
+                                          Search flights
+                                       </span>
+                                    </button>
+                                 </div>
+                              </div>
 
-               <form>
-                  <div class="row">
-                     <div class="col-md-3 col-md-offset-1">
-                        <div class="form-group f_group">
-                           <label for="destination"><span>Your Destination</span></label>
-                           <input id="textinput" name="textinput" placeholder="Enter a Destination or Hotel name" class="form-control input-md input_f" type="text">
-                        </div>
-                     </div>
-                     <div class="col-md-1">
-                        <div class="form-group f_group">
-                           <label for="email"><span>Check In</span></label>
-                           <input id="textinput" name="textinput" placeholder="Mm/Dd/Yy" class="form-control input-md input_f" type="text">
-                        </div>
-                     </div>
-                     <div class="col-md-1">
-                        <div class="form-group f_group">
-                           <label for="email"><span>Check Out</span></label>
-                           <input id="textinput" name="textinput" placeholder="Mm/Dd/Yy" class="form-control input-md input_f" type="text">
-                        </div>
-                     </div>
-                     <div class="col-md-1">
-                        <div class="form-group f_group">
-                           <label for="email"><span>Kids</span></label>
-                           <input id="textinput" name="textinput" placeholder="01 Kids" class="form-control input-md input_f" type="text">
-                        </div>
-                     </div>
-                     <div class="col-md-1">
-                        <div class="form-group f_group">
-                           <label for="email"><span>Adult</span></label>
-                           <input id="textinput" name="textinput" placeholder="01 Adults" class="form-control input-md input_f" type="text">
-                        </div>
-                     </div>
-                     <div class="col-md-1">
-                        <div class="form-group f_group">
-                           <label for="email"><span>Rooms</span></label>
-                           <input id="textinput" name="textinput" placeholder="01 Rooms" class="form-control input-md input_f" type="text">
-                        </div>
-                     </div>
-                     <div class="col-md-3">
-                        <button type="submit" class="btn btn-default f_btnresult">SEARCH RESULTS</button>
+
+                              <div class="row multi-city-value" id="multi-city-flight"> 
+
+                                 <div class="col-md-8 flights_multi">
+                                    <h3 class="www-srchf__multi__ttl">
+                                       <i class="fa fa-plane"></i> Flight 2 
+                                    </h3>
+                                    <div class="row">
+                                       <div class="col-md-9">
+                                          <div class="row">
+                                             <div class="col-md-12">
+                                                <div class="custom-input-text top-radius">
+                                                   <i class="fa fa-map-marker"></i>
+                                                   <input type="text" class="flight-search-form-input multi-city-input" placeholder="Origin">
+                                                   <label class="custom_container">Nearby Airports
+                                                     <input type="checkbox" checked="checked">
+                                                     <span class="custom_checkmark"></span>
+                                                   </label>
+                                                </div>
+                                             </div>
+                                             <div class="col-md-12">
+                                                <div class="custom-input-text bottom-radius">
+                                                   <i class="fa fa-map-marker"></i>
+                                                   <input type="text" class="flight-search-form-input multi-city-input" placeholder="Origin">
+                                                   <label class="custom_container">Nearby Airports
+                                                     <input type="checkbox" checked="checked">
+                                                     <span class="custom_checkmark"></span>
+                                                   </label>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="col-md-3">
+                                          <div class="row">
+                                             <div class="col-md-12">
+                                                <input type="text" class="daterange multicity_daterange_2 " name="daterange" />
+                                                <div class="custom-input-text s_calendar square-radius square-radius-m start_date">
+                                                   <i class="fa fa-calendar-o"></i>
+                                                   <span class="month">March</span>
+                                                   <span class="date">12</span>
+                                                   <span class="day">Tuesday</span>
+                                                </div>
+                                             </div>
+                                             <span class="close-icon">
+                                                <i class="fa fa-times-circle close"></i>
+                                             </span>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-8 flights_multi">
+                                    <div class="add_flights">
+                                       <p>
+                                          <span class="add-multi-city-flight">
+                                             Add up to 6 flights
+                                             <i class="fa fa-plus-circle"></i>
+                                          </span>  
+                                       </p>
+                                    </div>
+                                 </div>                               
+                              </div>
+
+                           </form>
+                        </div>    
                      </div>
                   </div>
-               </form>
+               </section>
             </div>
          </div>
       </div>
@@ -163,7 +455,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-inner">
                                     <div class="img">
-                                       <img src="assets/images/image_one.png">                                         
+                                       <img src="assets/images/image_two.png">                                         
                                     </div>
                                     <div class="course-detail-front">
                                        <h5>Luxury with ultra superior room</h5>
@@ -186,7 +478,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-inner">
                                     <div class="img">
-                                       <img src="assets/images/image_one.png">                                         
+                                       <img src="assets/images/image_three.png">                                         
                                     </div>
                                     <div class="course-detail-front">
                                        <h5>Luxury with ultra superior room</h5>
@@ -293,7 +585,7 @@
 </section>
 <section class="book_image">
    <div class="container-fluid f_media_bg">
-       <div class="row">
+      <div class="row">
          <div class="col-md-12">
             <div class="header-text book_content">
                <div class="col-md-7 col-sm-12 col-md-offset-5 col-sm-offset-0">
@@ -309,7 +601,7 @@
                   </div>
                   <div class="media f_media">
                      <div class="media-left">
-                        <div class="border_box">01</div>
+                        <div class="border_box">02</div>
                      </div>
                      <div class="media-body">
                         <h4 class="media-heading f_mediacontent">No booking charges</h4>
@@ -318,7 +610,7 @@
                   </div>
                   <div class="media f_media">
                      <div class="media-left">
-                        <div class="border_box">01</div>
+                        <div class="border_box">03</div>
                      </div>
                      <div class="media-body">
                         <h4 class="media-heading f_mediacontent">No booking charges</h4>
@@ -327,7 +619,7 @@
                   </div>
                   <div class="media f_media">
                      <div class="media-left">
-                        <div class="border_box">01</div>
+                        <div class="border_box">04</div>
                      </div>
                      <div class="media-body">
                         <h4 class="media-heading f_mediacontent">No booking charges</h4>
@@ -376,7 +668,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-last">
                                     <div class="img">
-                                       <img src="assets/images/popular_image1.png" class="img-responsive">
+                                       <img src="assets/images/popular_image2.png" class="img-responsive">
                                     </div>
                                     <div class="row margin-custom">
                                        <div class="col-md-8 text-left">
@@ -395,7 +687,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-last">
                                     <div class="img">
-                                       <img src="assets/images/popular_image1.png" class="img-responsive">
+                                       <img src="assets/images/popular_image3.png" class="img-responsive">
                                     </div>
                                     <div class="row margin-custom">
                                        <div class="col-md-8 text-left">
@@ -414,7 +706,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-last">
                                     <div class="img">
-                                       <img src="assets/images/popular_image1.png" class="img-responsive">
+                                       <img src="assets/images/popular_image4.png" class="img-responsive">
                                     </div>
                                     <div class="row margin-custom">
                                        <div class="col-md-8 text-left">
@@ -525,7 +817,7 @@
 <div style="position: relative;">
    <section class="price_index">
       <div class="container">
-         <div class="row">
+         <div class="row f_ipad">
             <div class="col-md-4">
                <div class="money_icon"> <i class="fa fa-money f_money"></i></div>
                <h3 class="f_price">Best Price Guarantee</h3>

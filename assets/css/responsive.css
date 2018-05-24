@@ -15,6 +15,15 @@ span.num_f {
 .banner_content {
     top: 36% !important;
 }
+.f_ipad {
+    padding-top: 125px !important;
+}
+
+.navbar-toggle {
+   
+    margin-top: 29px;
+    
+}
 }
 
 /*
@@ -258,6 +267,11 @@ section.book_image {
 .f_search {
     padding: 10px 12px !important;
 
+}
+.navbar-toggle {
+   
+    margin-top: 28px;
+    
 }
 }
 
