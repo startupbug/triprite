@@ -38,7 +38,6 @@ header{color:#fff;z-index:999;width:100%;top:0;}
 body{height:100%;max-width:1920px;margin:auto;}
 .navbar-default{background-color:transparent;border-color:transparent;}
 .nav>li>a{position:relative;display:block;padding:10px 10px;margin-top:21px;margin-right:0px;}
-.f_nav{margin-left:35px;}
 .f_nav a{color:#282828 !important;font-size:16px !important;font-family:'Montserrat-Regular';}
 .f_dropdown a{color:black !important;}
 a.f_signin{background-color:#114572;border:1px solid #114572;border-radius:1px;padding-left:25px !important;padding-right:25px !important;font-size:16px !important;color:#ffffff !important;padding-top:6px !important;padding-bottom:6px !important;}
