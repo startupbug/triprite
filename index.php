@@ -3,7 +3,7 @@
    <!-- Silder Images -->
    <div class="container-fluid f_padding">
       <div class="w3-content w3-display-container">
-         <img class="mySlides" src="assets/images/banner.png" class="img-responsive" style="width:100%">
+         <img class="mySlides" src="assets/images/banner.jpg" class="img-responsive" style="width:100%">
          <img class="mySlides" src="assets/images/banner1.jpg" class="img-responsive" style="width:100%">
          <img class="mySlides" src="assets/images/banner2.jpg" class="img-responsive" style="width:100%">
          
@@ -432,7 +432,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-inner">
                                     <div class="img">
-                                       <img src="assets/images/image_one.png">                                         
+                                       <img src="assets/images/image_one.jpg">                                         
                                     </div>
                                     <div class="course-detail-front">
                                        <h5>Luxury with ultra superior room</h5>
@@ -455,7 +455,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-inner">
                                     <div class="img">
-                                       <img src="assets/images/image_two.png">                                         
+                                       <img src="assets/images/image_two.jpg">                                         
                                     </div>
                                     <div class="course-detail-front">
                                        <h5>Luxury with ultra superior room</h5>
@@ -478,7 +478,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-inner">
                                     <div class="img">
-                                       <img src="assets/images/image_three.png">                                         
+                                       <img src="assets/images/image_three.jpg">                                         
                                     </div>
                                     <div class="course-detail-front">
                                        <h5>Luxury with ultra superior room</h5>
@@ -505,7 +505,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-inner">
                                     <div class="img">
-                                       <img src="assets/images/image_one.png">                                         
+                                       <img src="assets/images/image_one.jpg">                                         
                                     </div>
                                     <div class="course-detail-front">
                                        <h5>Luxury with ultra superior room</h5>
@@ -528,7 +528,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-inner">
                                     <div class="img">
-                                       <img src="assets/images/image_one.png">                                         
+                                       <img src="assets/images/image_one.jpg">                                         
                                     </div>
                                     <div class="course-detail-front">
                                        <h5>Luxury with ultra superior room</h5>
@@ -551,7 +551,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-inner">
                                     <div class="img">
-                                       <img src="assets/images/image_one.png">                                         
+                                       <img src="assets/images/image_one.jpg">                                         
                                     </div>
                                     <div class="course-detail-front">
                                        <h5>Luxury with ultra superior room</h5>
@@ -649,7 +649,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-last">
                                     <div class="img">
-                                       <img src="assets/images/popular_image1.png" class="img-responsive">
+                                       <img src="assets/images/popular_image1.jpg" class="img-responsive">
                                     </div>
                                     <div class="row margin-custom">
                                        <div class="col-md-8 text-left">
@@ -668,7 +668,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-last">
                                     <div class="img">
-                                       <img src="assets/images/popular_image2.png" class="img-responsive">
+                                       <img src="assets/images/popular_image2.jpg" class="img-responsive">
                                     </div>
                                     <div class="row margin-custom">
                                        <div class="col-md-8 text-left">
@@ -687,7 +687,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-last">
                                     <div class="img">
-                                       <img src="assets/images/popular_image3.png" class="img-responsive">
+                                       <img src="assets/images/popular_image3.jpg" class="img-responsive">
                                     </div>
                                     <div class="row margin-custom">
                                        <div class="col-md-8 text-left">
@@ -706,7 +706,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-last">
                                     <div class="img">
-                                       <img src="assets/images/popular_image4.png" class="img-responsive">
+                                       <img src="assets/images/popular_image4.jpg" class="img-responsive">
                                     </div>
                                     <div class="row margin-custom">
                                        <div class="col-md-8 text-left">
@@ -729,7 +729,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-last">
                                     <div class="img">
-                                       <img src="assets/images/popular_image1.png" class="img-responsive">
+                                       <img src="assets/images/popular_image1.jpg" class="img-responsive">
                                     </div>
                                     <div class="row margin-custom">
                                        <div class="col-md-8 text-left">
@@ -748,7 +748,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-last">
                                     <div class="img">
-                                       <img src="assets/images/popular_image1.png" class="img-responsive">                   
+                                       <img src="assets/images/popular_image1.jpg" class="img-responsive">                   
                                     </div>
                                     <div class="row margin-custom">
                                        <div class="col-md-8 text-left">
@@ -767,7 +767,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-last">
                                     <div class="img">
-                                       <img src="assets/images/popular_image1.png" class="img-responsive">
+                                       <img src="assets/images/popular_image1.jpg" class="img-responsive">
                                     </div>
                                     <div class="row margin-custom">
                                        <div class="col-md-8 text-left">
@@ -786,7 +786,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-last">
                                     <div class="img">
-                                       <img src="assets/images/popular_image1.png" class="img-responsive">
+                                       <img src="assets/images/popular_image1.jpg" class="img-responsive">
                                     </div>
                                     <div class="row margin-custom">
                                        <div class="col-md-8 text-left">
