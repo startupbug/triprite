@@ -87,8 +87,8 @@ p.f_mediatext{font-size:16px;color:#ffffff;font-family:'Montserrat-Regular';}
 h3.f_from{font-size:16px !important;color:#8c8c8c !important;font-family:'Montserrat-SemiBold' !important;float:right !important;padding-right:7px;}
 span.paris_f{color:#626262;font-size:16px;font-family:'Montserrat-SemiBold';padding-left:7px;}
 span.num_f{font-size:22px;color:#282828;font-family:'Montserrat-SemiBold';float:right;padding-right:7px;}
-section.price_index{background-image:url(../images/image_index.png);}
-section.price_index{background-image:url(../images/image_index.png);height:414px;}
+section.price_index{background-image:url(../images/image_index.jpg);}
+section.price_index{background-image:url(../images/image_index.jpg);height:414px;}
 .f_money{font-size:65px;color:white;margin-top:50px;}
 .money_icon{text-align:center;}
 h3.f_price{FONT-SIZE:20px;color:#ffffff;font-family:'Montserrat-SemiBold';text-align:center;margin-top:30px;}
@@ -133,7 +133,7 @@ p.f_copyright{font-size:16px;color:#ffffff;font-family:'Montserrat-Light';font-w
 .f_left:hover{top:50% !important;left:-8% !important;color:#a0a0a0 !important;}
 .frontend-box-last{border:1px solid #cccccc;}
 span.num_f{font-size:22px !important;color:#282828 !important;font-family:'Montserrat-SemiBold' !important;}
-section.book_image{background-image:url(../images/image_book.png);background-position:center center;background-size:cover;background-repeat:no-repeat;padding-bottom:40px;}
+section.book_image{background-image:url(../images/image_book.jpg);background-position:center center;background-size:cover;background-repeat:no-repeat;padding-bottom:40px;}
 .s_silder_tab .nav>li>a:hover{background-color:#2e8baf;border:1px solid #2e8baf;color:#fff;}
 .s_silder_tab .nav>li>a>active{background-color:#769eb7;}
 button.f_default{background-color:transparent;border:transparent;color:white;font-size:18px;font-family:'Montserrat-Regular';}
