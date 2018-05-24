@@ -24,6 +24,7 @@ span.num_f{margin-right:-52px !important;}
 .w3-display-left{top:42% !important;left:4% !important;font-size:40px !important;}
 .w3-display-right{top:42% !important;right:4% !important;font-size:40px !important;}
 .banner_content{top:32% !important;}
+.navbar-toggle {margin-top: 29px !important;}
 }
 @media (min-width:320px) and (max-width:767px) and (orientation:landscape){.header-text h1{font-size:34px !important;margin-top:28px !important;}
 }
@@ -54,7 +55,8 @@ section.book_image{padding-top:0px !important;}
 .btn_display{display:inline-flex !important;}
 .f_search{padding:10px 12px !important;}
 .navbar-toggle{margin-top:28px;}
-}
+.navbar-brand {
+    float: none !important;}}
 @media (max-width:1200px){.navbar-header{float:none;}
 .navbar-left,.navbar-right{float:none !important;}
 .navbar-toggle{display:block;}
